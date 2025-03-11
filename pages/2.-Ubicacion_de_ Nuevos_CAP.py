@@ -141,7 +141,14 @@ def mostrar_ayuda():
 # Mostrar la ayuda en la barra lateral
 mostrar_ayuda()    
     
-    
+# Botón de descarga del Modelo de Huff
+with open("Modelo_de_Huff.pdf", "rb") as pdf_file:
+    st.sidebar.download_button(
+        label="📄 Descargar Modelo de Huff",
+        data=pdf_file,
+        file_name="Modelo_de_Huff.pdf",
+        mime="application/pdf"
+    )    
     
     
     
