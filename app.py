@@ -7,6 +7,12 @@ Created on Mon Mar 10 18:01:15 2025
 
 import streamlit as st
 
+
+# Mostrar el nombre del creador en la barra lateral
+st.sidebar.markdown("### Creado por: **Javier Horacio Pérez Ricárdez**")   
+
+st.sidebar.markdown("Marzo del 2025")  
+
 # Estilo de fondo
 page_bg_img = """
 <style>
